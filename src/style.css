@@ -111,6 +111,17 @@ p{
     padding: 80px;
 }
 
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
 .project-card {
     width: 300px;
     height: 500px;
@@ -122,6 +133,7 @@ p{
     display: flex;
     justify-content: space-around;
 }
+
 
 @media only screen and (max-width: 1000px) {
     .project-container {
